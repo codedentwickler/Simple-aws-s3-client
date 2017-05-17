@@ -52,6 +52,6 @@
  // Specify the name of bucket in the request body
  app.post('/buckets/delete', aws_crud.deleteBucket);
 
- app.listen(3000, function() {
+ app.listen(PORT, function() {
      console.log('AWS S3 Server listening on port! ', PORT);
  });
