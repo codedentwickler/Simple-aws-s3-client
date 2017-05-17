@@ -243,5 +243,4 @@ exports.downloadFile = function(req, res) {
     s3.getObject(params).createReadStream().on('error', function(err) {
         res.send(err);
     }).pipe(file);
-
 }
