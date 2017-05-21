@@ -53,5 +53,5 @@
  app.post('/buckets/delete', aws_crud.deleteBucket);
 
  app.listen(PORT, function() {
-     console.log('AWS S3 Server listening on port! ', PORT);
+     console.log('Express Server listening on port! ', PORT);
  });
